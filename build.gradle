@@ -13,9 +13,9 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'com.github.iotaledger:ict:master'
-    runtimeClasspath 'com.github.iotaledger:ict:master'
-    testCompileOnly 'com.github.iotaledger:ict:master'
+    compileOnly 'com.github.iotaledger:ict:0.6'
+    runtimeClasspath 'com.github.iotaledger:ict:0.6'
+    testCompileOnly 'com.github.iotaledger:ict:0.6'
 }
 
 task ixi(type: Jar) {
